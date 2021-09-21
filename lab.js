@@ -41,11 +41,11 @@ var brittanisBirthYear = 1986
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-if(amysBirthYear === brittanisBirthYear){
-  console.log('Amy and Brittani were born in the same year')
-} else {
-  console.log('Amy and Brittani were not born in the same year')
-}
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log('Amy and Brittani were born in the same year')
+// } else {
+//   console.log('Amy and Brittani were not born in the same year')
+// }
 
 
 
@@ -57,7 +57,8 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-//Code Here
+let firstItem = arr[0];
+//console.log(firstItem);
 
 
 ////////// PROBLEM 5 //////////
@@ -65,7 +66,8 @@ var arr = [10,20,30,40,50,60]
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
 
-//Code Here
+var lastItemRemoved = arr.pop();
+// console.log(lastItemRemoved);
 
 ////////// PROBLEM 6 //////////
 
